@@ -1,0 +1,7 @@
+Simple Calculator
+with parameter 40 and 4.
+
+.Sum of Two Number is=44
+.Sub of Two Number is=36
+.mult of Two Number is=160
+.div of Two Number is=13.33

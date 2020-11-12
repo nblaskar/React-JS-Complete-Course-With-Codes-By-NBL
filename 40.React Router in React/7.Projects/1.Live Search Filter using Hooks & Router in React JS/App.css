@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+code {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  color: #61dafb;
+}
+.active_color {
+  color: #ffffff;
+  border-bottom: 1px solid red;
+}
+.menu_style {
+  width: 100%;
+  line-height: 80px;
+  background-color: #313849;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.searchbar {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.searchbar input {
+  margin: 30px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

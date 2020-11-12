@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.setStyle {
+  height: 90vh;
+  font-size: 8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 2px 3px firebrick;
+  background-color: #99b898;
+  color: #feceab;
+}
+.setStyle2 {
+  height: 90vh;
+  font-size: 6rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 2px 3px #01a9b4;
+  background-color: #01a9b4;
+  color: #086972;
+}
+.setStyle3 {
+  height: 90vh;
+  font-size: 8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 2px 3px #e5cfe5;
+  background-color: #3b6978;
+  color: #a6dcef;
+}
+.mainMenu {
+  width: 100%;
+  line-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e84a5f;
+  color: #ff847c;
+}
+.mainMenu a {
+  color: #092532;
+  font-size: 3rem;
+  text-decoration: none;
+}
+a.menu_link {
+  color: #feceab;
+  font-size: 3rem;
+}
+.goback_btn {
+  width: 40rem;
+  height: 10rem;
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  .setStyle,
+  .setStyle2,
+  .setStyle3 {
+    height: 80vh;
+  }
+  .setStyle h1,
+  .setStyle2 h1,
+  .setStyle3 h1 {
+    font-size: 5rem;
+  }
+  .setStyle p,
+  .setStyle2 p,
+  .setStyle3 p {
+    font-size: 3rem;
+  }
+  .mainMenu {
+    display: block;
+  }
+  .mainMenu a {
+    display: block;
+    text-align: center;
+  }
+  .mainMenu a {
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+  }
+}

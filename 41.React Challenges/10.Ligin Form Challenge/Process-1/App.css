@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #d2dbdd;
+}
+.heading_style {
+  padding: 30px 0;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: black;
+  background-color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.slot_inner {
+  text-align: center;
+}
+.slotmachine {
+  border: 2px solid black;
+  width: 70%;
+  margin: auto;
+}
+.cards {
+  width: 100%;
+  height: auto;
+}
+.card {
+  margin: 6%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #ffffff;
+  width: 21.25%;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  float: left;
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+}
+.card_img {
+  width: 100%;
+  height: 245px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card_info {
+  background-color: #ffffff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+  background-color: #ffffff;
+}
+.card_category {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: #ffffff;
+}
+.card_title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #ffffff;
+  text-transform: capitalize;
+}
+button {
+  padding: 12px 20px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #9b59b6;
+  outline: none;
+  border: 2px solid #ecf0f1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h1 {
+  margin-left: 100px;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+button {
+  margin-left: 90px;
+}
+div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+input {
+  background-color: white;
+  width: 300px;
+  height: 35px;
+}

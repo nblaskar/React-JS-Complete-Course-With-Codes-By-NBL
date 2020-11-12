@@ -1,0 +1,4 @@
+1-Create a react app from scratch
+2-Add one h1 element.eg Your Name
+3-Add one p element in it With Current Date
+4-Add one p element in it With Current Time
