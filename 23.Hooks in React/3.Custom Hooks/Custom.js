@@ -1,0 +1,14 @@
+import { useState } from "react";
+function useCustomCounter() {
+  const [count, setCount] = useState(0);
+  const handleIncrement = () => {
+    setCount(count + 1);
+  };
+  return {
+    //return as object
+    count,
+    handleIncrement,
+  };
+}
+
+export default useCustomCounter;
