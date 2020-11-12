@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--React File-->
+    <script src="react.js"></script>
+
+    <!--ReactDOM File-->
+    <script src="react-dom.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      class App extends React.Component {
+        render() {
+          // return (React.createElement('div',null,'Hello React'));
+          return React.createElement(
+            "div",
+            null,
+            React.createElement("h1", null, "Hello React")
+          );
+        }
+      }
+      ReactDOM.render(
+        React.createElement(App, null),
+        document.getElementById("root")
+      );
+    </script>
+  </body>
+</html>
