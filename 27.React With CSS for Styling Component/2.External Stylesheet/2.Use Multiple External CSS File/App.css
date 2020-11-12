@@ -1,0 +1,4 @@
+/* this css file is global, all the attributes names will be used globally to other component */
+.txt {
+  color: blue;
+}
